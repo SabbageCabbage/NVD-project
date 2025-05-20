@@ -17,7 +17,7 @@ import csv
 
 
 def request_cve_list(year, month):
-    API_KEY = "166fe7b0-b7f8-4ce3-a712-28a33f2f393f"
+    API_KEY = "for public github commit reasons will not be sharing my own, so?? add ur own here" 
     start_date = f"{year}-{month:02d}-01T00:00Z" #Set the start date of the request
     if month == 12:
         end_date = f"{year+1}-01-01T00:00Z" #Set the end date for December to the next year's January
